@@ -9,19 +9,38 @@
     <title>Document</title>
 </head>
 <body>
-    <header class="bg-donkersteBlauw h-14 flex">
-        <div class="flex space-x-80 space-y-3">
-        <p class="text-white mt-4 ">LOGO</p>
-        <i class="fa-solid fa-bars mr-0 text-white mt-2 text-2xl"></i>
+    <header class="bg-donkersteBlauw h-14">
+        <div class="flex justify-between">
+            
+            <p class="text-white mt-4 ml-4 ">LOGO</p>
+            <ul class=" hidden text-white md:flex md:space-x-10 md:mt-4">
+                <li>Home</li>
+                <li>Diensten</li>
+                <li>Werken</li>
+                <li class="md:bg-lichtBlauw md:rounded-3xl md:w-24 md:text-center">Contact</li>
+            </ul>
+          
+            <i class="fa-solid fa-bars text-white mt-2 text-2xl mr-2 md:text-transparent"></i>
         </div>
     </header>
-    <section class="top-52">
-        <div>
-            <h1 class="text-donkersteBlauw text-6xl mt-48">We make your 
-                ideas a digital 
+    <main>
+    <section class="top-52 container ">
+        <div class="md:flex">
+            <h1 class="text-donkersteBlauw text-5xl mt-48 mx-auto sm:flex-wrap md:hidden">We make your 
+                ideas a <span class="text-lichtBlauw"> digital </span>
                 reality</h1>
+
+                <h1 class="text-donkersteBlauw text-5xl mt-48 mx-auto sm:flex-wrap hidden md:block md:text-6xl ">We make your <br>
+                    ideas a <span class="text-lichtBlauw"> digital </span> <br>
+                    reality</h1>
+
+                
+                <img class="sm:w-96 sm:container sm:mt-24 md:mt-56 md:w-1/2 md:w " src="/sierracode2/src/bijlage/img/foto_home.svg" alt="">
         </div>
     </section>
+    </main>
+   <footer>
     
+   </footer>
 </body>
 </html>
