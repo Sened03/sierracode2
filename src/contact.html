@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/dist/output.css">
+    <script src="https://kit.fontawesome.com/84d89e01d3.js" crossorigin="anonymous"></script>
+    <title>Contact</title>
+</head>
+<body id="blauwBg" class=" bg-donkersteBlauw absolute">
+    <header class= "flex justify-between items-baseline bg-donkersteBlauw fixed h-20">
+        <p class="text-2xl ml-2 bg-donkersteBlauw">Logo</p>
+
+        <div class="relative bg-white z-10">
+                <div class="lg:hidden fixed right-10 top-2">
+                    <i class="mobile-nav-toggle relative z-50 text-3xl text-lichtBlauw  fa-solid fa-bars"></i>
+                </div>
+                
+                <nav class="">
+                    <ul class="  primary-navigation z-40 flex-col fixed top-0 bottom-0 right-0 left-52 bg-lichtBlauw   text-2xl text-white py-52 px-10 translate-x-full">
+                        <i id="kruis" class=" text-white absolute z-50 top-2  text-3xl fa-solid fa-x"></i>  
+                        <li class="my-3">
+                            <a href="/src/index.html">Home</a>
+                        </li>
+                        <li class="my-3">
+                            <a href="/src/diensten.html">Diensten</a>
+                        </li>
+                        <li class="my-3">
+                            <a href="/src/contact.html">contact</a> 
+                        </li>
+                    </ul>
+                    <ul class="hidden lg:hidden gap-10 ml-96 mr-3 mt-5 bg-amber-300">
+                        <li class="hover:italic hover:text-lichtBlauw">
+                            <a href="">Home</a>
+                        </li>
+                        <li class="hover:italic hover:text-lichtBlauw">
+                            <a href="">Diensten</a>
+                        </li>
+                        <li class="hover:italic hover:text-lichtBlauw">
+                            <a href="">Contact</a> 
+                        </li>
+                    </ul>
+                </nav>
+                <!-- groot menu-->
+               
+                 
+                
+
+        </div>  
+        <ul class=" hidden fixed lg:flex gap-10 z-10 right-2 text-white">
+            <li class="my-3 hover:italic hover:text-lichtBlauw">
+                <a href="/src/index.html">Home</a>
+            </li>
+            <li class="my-3 hover:italic hover:text-lichtBlauw">
+                <a href="/src/diensten.html">Diensten</a>
+            </li>
+            <li class="my-3 hover:italic hover:text-lichtBlauw">
+                <a href="/src/contact.html">Contact</a> 
+            </li>
+        </ul>
+    </header>
+    <section class="container mt-32 lg:flex justify-around">
+        <article class=" lg:w-2/5">
+            <h2 class=" uppercase text-white  text-3xl">contact us</h2>
+            <div class="">
+                
+
+                <hr class="  my-3 border-2 w-16 border-white">
+                <p class="leading-normal text-white sm:text-lg ">Vul dit eenvoudige formulier in en we nemen spoedig contact met u op. Of stuur ons een e-mail op contact@sierra.com of bel 0471 89 90 06 als u dat liever wilt.
+
+                    Of bent u klaar om uw project nu te starten?</p>
+
+                <button class="uppercase bg-lichtBlauw px-3 py-1 text-white  rounded-2xl mt-8 text-center  shadow-2xl transition cursor-pointer  ease-in  hover:-translate-y-3 hover:bg-donkersteBlauw tracking-widest sm:ml-0" > get in touch</button>
+            </div>
+        </article>
+        <article class="lg:w-1/2">
+            <div  class="shadow-xl mt-10 rounded-lg border-4 p-4">
+                <form class="flex flex-col" action="" method="post">
+
+                    <label for="naam"></label>
+                    <input
+                        class="w-full border-gray-300 rounded-lg shadow-md focus:border-lichtBlauw focus:ring-lichtBlauw mb-5"
+                        type="text" id="naam" name="naam" placeholder="Voor en achternaam">
+
+                    <label for="email"></label>
+                    <input
+                        class="w-full border-gray-300 rounded-lg shadow-md focus:border-lichtBlauw focus:ring-lichtBlauw mb-5"
+                        type="text" id="email" name="email" placeholder="E-mail">
+
+                    <label for="Vragen of opmerkingen"></label>
+                    <input
+                        class="w-full border-gray-500 rounded-lg shadow-md  p-10 focus:border-lichtBlauw focus:ring-lichtBlauw"
+                        type="text" name="Vragen" id="Vragen" placeholder="Stel uw vraag ">
+                    <input
+                        class="border-2 border-lichtBlauw mt-2 capitalize font-bold bg-lichtBlauw text-white shadow-xl rounded-lg"
+                        type="submit" value="verzenden">
+
+                </form>
+                   
+
+
+
+                   
+                    
+
+                   
+                   
+
+              
+
+        </article>
+    </section>
+</body>
+<script src="./index.js"></script>
+</html>

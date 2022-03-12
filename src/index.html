@@ -8,7 +8,57 @@
     <title>Document</title>
 </head>
 <body>
-    <h1 class="bg-red-400">sierra</h1>
+    <header class=" flex justify-between items-baseline fixed">
+        <p class="text-2xl ml-2">Logo</p>
+
+        <div class="relative ">
+                <div class="lg:hidden fixed right-10 top-2">
+                    <i class="mobile-nav-toggle relative z-50 text-3xl text-lichtBlauw  fa-solid fa-bars"></i>
+                </div>
+                
+                <nav class="">
+                    <ul class="  primary-navigation z-40 flex-col fixed top-0 bottom-0 right-0 left-52 bg-lichtBlauw   text-2xl text-white py-52 px-10 translate-x-full">
+                        <i id="kruis" class=" text-white absolute z-50 top-9 text-3xl right-3 fa-solid fa-x"></i>  
+                        <li class="my-3">
+                            <a href="/src/index.html">Home</a>
+                        </li>
+                        <li class="my-3">
+                            <a href="/src/diensten.html">Diensten</a>
+                        </li>
+                        <li class="my-3">
+                            <a href="/src/contact.html">contact</a> 
+                        </li>
+                    </ul>
+                    <ul class="hidden lg:hidden gap-10 ml-96 mr-3 mt-5 bg-amber-300">
+                        <li class="hover:italic hover:text-lichtBlauw">
+                            <a href="">Home</a>
+                        </li>
+                        <li class="hover:italic hover:text-lichtBlauw">
+                            <a href="">Diensten</a>
+                        </li>
+                        <li class="hover:italic hover:text-lichtBlauw">
+                            <a href="">Contact</a> 
+                        </li>
+                    </ul>
+                </nav>
+                <!-- groot menu-->
+               
+                 
+                
+
+        </div>  
+        <ul class=" hidden fixed lg:flex gap-10  right-2">
+            <li class="my-3 hover:italic hover:text-lichtBlauw">
+                <a href="/src/index.html">Home</a>
+            </li>
+            <li class="my-3 hover:italic hover:text-lichtBlauw">
+                <a href="/src/diensten.html">Diensten</a>
+            </li>
+            <li class="my-3 hover:italic hover:text-lichtBlauw">
+                <a href="/src/contact.html">Contact</a> 
+            </li>
+        </ul>
+    </header>
     
 </body>
 </html>
